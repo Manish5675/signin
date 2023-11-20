@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: cadetblue;
+    
+}
+#cont{
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+.pin,a{
+    display: block;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border:2px solid brown;
+
+}
+form{
+    background-color: rgba(107, 136, 48, 0.726);
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+}
+form h2{
+    text-align: center;
+    color:gold;
+}
+form label{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form .upi{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;
+    /* color: aquamarine; */
+}
+button{
+    width: 20%;
+    height: 20px;
+    color: chartreuse;
+    background-color: rgb(233, 233, 112);
+}
+form #vimp{
+    background-color: rgb(235, 109, 109);
+}
+form a{
+    text-decoration: none;
+    color: white;
+}
+.fa-solid{
+position: absolute;
+top: 60%;
+left: 3%;
+}
+#use{
+position: relative;
+}
